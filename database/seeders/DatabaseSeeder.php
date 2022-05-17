@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        Brand::factory()
+        Brand::factory(5)
             ->state(new Sequence(
                 ['name' => 'Opel'],
                 ['name' => 'Volkswagen'],
