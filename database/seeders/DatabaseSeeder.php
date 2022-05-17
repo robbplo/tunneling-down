@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
                 ['name' => 'Ford'],
                 ['name' => 'Hyundai'],
             ))
-            ->hasCars(5)
+            ->hasCars(25)
             ->create();
     }
 }
